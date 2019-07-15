@@ -7,13 +7,9 @@ The structure of the directories of this repository is as follows:
 	Root Folder
 	|
 	|--- Chart
-		|--- 1
-			|--- Metrics.zip
-			|--- TestCoverage.zip
-		|--- 2
-		.
-		.
-		.
+	|   |--- 1
+	|   |    |--- Metrics.zip
+	|   |    |--- TestCoverage.zip
 	|--- Closure
 	|
 	|--- Land
