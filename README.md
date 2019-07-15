@@ -17,7 +17,7 @@ The structure of the directories of this repository is as follows:
 
 There is a separate folder for each of the projects in the
 initial published version of Defects4J. Each project folder includes a number of folders (let’s call
-them bug folders) each of which provides the extracted information about a corresponding bug. For
+them *bug folders*) each of which provides the extracted information about a corresponding bug. For
 example, “Root Folder->Chart->1” folder contains the extracted information about the bug whose id is
 “1” in “Chart” project. These ids are the same as ids in Defects4J. For example, users of Defects4J can
 checkout to the mentioned buggy version with this command:
@@ -28,13 +28,13 @@ Each bug folder contains two files: “Metrics.zip” and “TestCoverage.zip”
 metrics and test coverage of the corresponding buggy version, respectively.
 
 ### Computed Metrics
-[SourceMeter](https://sourcemeter.com) is used to compute the values of different source code metrics. For each buggy
+[SourceMeter](https://sourcemeter.com) is used to compute the values of various source code metrics. For each buggy
 version of a project, the computed metric values could be found in the csv file inside “Metrics.zip” file in the
 corresponding folder.
 
 These metrics are calculated at class level. Each row of the file represents the
 calculated metric values for a class and each column represents the calculated values of a specific
-metric for different classes. The class name and the metric name abbreviation appears on the first cell
+metric for different classes. The class name and the metric name abbreviation appear on the first cell
 of row and column, respectively. The following table shows the list of types of metrics calculated for each class.
 Further information about each metric could be found on the [documentation section of SourceMeter website](https://www.sourcemeter.com/resources/java/).
 
@@ -50,7 +50,7 @@ Further information about each metric could be found on the [documentation secti
 
 ### Computed Test Coverages
 The statement coverage is calculated at method level. For each
-buggy version, the test coverage of each unit test on each program method was computed using [JaCoCo](https://www.jacoco.org).
+buggy version, the test coverage of each unit test on each program method is computed using [JaCoCo](https://www.jacoco.org).
 
 Since a unit test usually covers only a few number of methods, the resulting matrix would be a
 sparse matrix. Therefore, the result is stored as a file named “TestCoverage.zip” that includes a file
