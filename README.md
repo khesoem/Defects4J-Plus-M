@@ -1,6 +1,17 @@
 # Defects4J+M
 This repository contains a dataset of computed metrics and test coverages for Defects4J projects.
 
+## Citing Defects4J+M
+If you are using this dataset for your research, we would be really glad if you cite our paper using the following bibtex:
+```
+@misc{1908.06502,
+	Author = {Mostafa Mahdieh and Seyed-Hassan Mirian-Hosseinabadi and Khashayar Etemadi and Ali Nosrati and Sajad Jalali},
+	Title = {Incorporating fault-proneness estimations into coverage-based test case prioritization methods},
+	Year = {2019},
+	Eprint = {arXiv:1908.06502},
+}
+```
+
 ## Data
 The structure of the directories of this repository is as follows:
 
