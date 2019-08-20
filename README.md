@@ -4,11 +4,11 @@ This repository contains a dataset of computed metrics and test coverages for De
 ## Citing Defects4J+M
 If you are using this dataset for your research, we would be really glad if you cite our paper using the following bibtex:
 ```
-@misc{1908.06502,
+@article{mahdieh2019incorporating,
 	Author = {Mostafa Mahdieh and Seyed-Hassan Mirian-Hosseinabadi and Khashayar Etemadi and Ali Nosrati and Sajad Jalali},
 	Title = {Incorporating fault-proneness estimations into coverage-based test case prioritization methods},
+	journal={arXiv preprint arXiv:1908.06502},
 	Year = {2019},
-	Eprint = {arXiv:1908.06502},
 }
 ```
 
