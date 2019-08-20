@@ -8,7 +8,7 @@ If you are using this dataset for your research, we would be really glad if you 
 	Author = {Mostafa Mahdieh and Seyed-Hassan Mirian-Hosseinabadi and Khashayar Etemadi and Ali Nosrati and Sajad Jalali},
 	Title = {Incorporating fault-proneness estimations into coverage-based test case prioritization methods},
 	journal={arXiv preprint arXiv:1908.06502},
-	Year = {2019},
+	Year = {2019}
 }
 ```
 
